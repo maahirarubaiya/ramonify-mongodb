@@ -1,0 +1,134 @@
+[
+  {
+    "_id": { "$oid": "64b1f2e3a1b2c3d4e5f60010" },
+    "userID": { "$oid": "64b1f2e3a1b2c3d4e5f60001" },
+    "accountID": "acc001",
+    "amount": 2000.00,
+    "date": "2024-03-01",
+    "type": "income",
+    "description": "Monthly salary",
+    "category": { "name": "Salary", "type": "income" },
+    "tags": [{ "name": "recurring" }, { "name": "essential" }]
+  },
+  {
+    "_id": { "$oid": "64b1f2e3a1b2c3d4e5f60011" },
+    "userID": { "$oid": "64b1f2e3a1b2c3d4e5f60001" },
+    "accountID": "acc001",
+    "amount": 85.50,
+    "date": "2024-03-03",
+    "type": "expense",
+    "description": "Grocery run at Trader Joes",
+    "category": { "name": "Groceries", "type": "expense" },
+    "tags": [{ "name": "essential" }, { "name": "recurring" }]
+  },
+  {
+    "_id": { "$oid": "64b1f2e3a1b2c3d4e5f60012" },
+    "userID": { "$oid": "64b1f2e3a1b2c3d4e5f60001" },
+    "accountID": "acc001",
+    "amount": 1200.00,
+    "date": "2024-03-05",
+    "type": "expense",
+    "description": "March rent",
+    "category": { "name": "Rent", "type": "expense" },
+    "tags": [{ "name": "recurring" }, { "name": "essential" }]
+  },
+  {
+    "_id": { "$oid": "64b1f2e3a1b2c3d4e5f60013" },
+    "userID": { "$oid": "64b1f2e3a1b2c3d4e5f60001" },
+    "accountID": "acc001",
+    "amount": 32.00,
+    "date": "2024-03-07",
+    "type": "expense",
+    "description": "Dinner with friends",
+    "category": { "name": "Dining Out", "type": "expense" },
+    "tags": [{ "name": "leisure" }, { "name": "one-time" }]
+  },
+  {
+    "_id": { "$oid": "64b1f2e3a1b2c3d4e5f60014" },
+    "userID": { "$oid": "64b1f2e3a1b2c3d4e5f60001" },
+    "accountID": "acc002",
+    "amount": 500.00,
+    "date": "2024-03-10",
+    "type": "income",
+    "description": "Freelance design project",
+    "category": { "name": "Freelance", "type": "income" },
+    "tags": [{ "name": "one-time" }]
+  },
+  {
+    "_id": { "$oid": "64b1f2e3a1b2c3d4e5f60015" },
+    "userID": { "$oid": "64b1f2e3a1b2c3d4e5f60002" },
+    "accountID": "acc003",
+    "amount": 1800.00,
+    "date": "2024-03-01",
+    "type": "income",
+    "description": "Monthly salary",
+    "category": { "name": "Salary", "type": "income" },
+    "tags": [{ "name": "recurring" }]
+  },
+  {
+    "_id": { "$oid": "64b1f2e3a1b2c3d4e5f60016" },
+    "userID": { "$oid": "64b1f2e3a1b2c3d4e5f60002" },
+    "accountID": "acc003",
+    "amount": 45.00,
+    "date": "2024-03-04",
+    "type": "expense",
+    "description": "Bus pass",
+    "category": { "name": "Transport", "type": "expense" },
+    "tags": [{ "name": "recurring" }]
+  },
+  {
+    "_id": { "$oid": "64b1f2e3a1b2c3d4e5f60017" },
+    "userID": { "$oid": "64b1f2e3a1b2c3d4e5f60003" },
+    "accountID": "acc004",
+    "amount": 60.00,
+    "date": "2024-03-06",
+    "type": "expense",
+    "description": "Netflix and Spotify",
+    "category": { "name": "Entertainment", "type": "expense" },
+    "tags": [{ "name": "leisure" }, { "name": "recurring" }]
+  },
+  {
+    "_id": { "$oid": "64b1f2e3a1b2c3d4e5f60018" },
+    "userID": { "$oid": "64b1f2e3a1b2c3d4e5f60004" },
+    "accountID": "acc005",
+    "amount": 120.00,
+    "date": "2024-03-08",
+    "type": "expense",
+    "description": "Weekly groceries",
+    "category": { "name": "Groceries", "type": "expense" },
+    "tags": [{ "name": "essential" }]
+  },
+  {
+    "_id": { "$oid": "64b1f2e3a1b2c3d4e5f60019" },
+    "userID": { "$oid": "64b1f2e3a1b2c3d4e5f60005" },
+    "accountID": "acc006",
+    "amount": 95.00,
+    "date": "2024-03-09",
+    "type": "expense",
+    "description": "Electric bill",
+    "category": { "name": "Utilities", "type": "expense" },
+    "tags": [{ "name": "recurring" }, { "name": "essential" }]
+  },
+  {
+    "_id": { "$oid": "64b1f2e3a1b2c3d4e5f60020" },
+    "userID": { "$oid": "64b1f2e3a1b2c3d4e5f60005" },
+    "accountID": "acc006",
+    "amount": 18.50,
+    "date": "2024-03-11",
+    "type": "expense",
+    "description": "Coffee and snacks",
+    "category": { "name": "Dining Out", "type": "expense" },
+    "tags": [{ "name": "leisure" }]
+  },
+  {
+    "_id": { "$oid": "64b1f2e3a1b2c3d4e5f60021" },
+    "userID": { "$oid": "64b1f2e3a1b2c3d4e5f60001" },
+    "accountID": "acc001",
+    "amount": 30.00,
+    "date": "2024-03-12",
+    "type": "expense",
+    "description": "Uber rides",
+    "category": { "name": "Transport", "type": "expense" },
+    "tags": [{ "name": "recurring" }]
+  }
+]

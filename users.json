@@ -1,0 +1,148 @@
+[
+  {
+    "_id": { "$oid": "64b1f2e3a1b2c3d4e5f60001" },
+    "name": "Maahira Rubaiya",
+    "email": "maahira@email.com",
+    "passwordHash": "hash1234",
+    "createdAt": "2024-01-01",
+    "accounts": [
+      {
+        "accountID": "acc001",
+        "accountName": "Maahira Checking",
+        "accountType": "checking",
+        "balance": 2500.00,
+        "createdAt": "2024-01-01"
+      },
+      {
+        "accountID": "acc002",
+        "accountName": "Maahira Savings",
+        "accountType": "savings",
+        "balance": 5000.00,
+        "createdAt": "2024-01-01"
+      }
+    ],
+    "budgets": [
+      {
+        "budgetID": "bud001",
+        "month": 3,
+        "year": 2024,
+        "limitAmount": 150.00,
+        "category": { "name": "Groceries", "type": "expense" }
+      },
+      {
+        "budgetID": "bud002",
+        "month": 3,
+        "year": 2024,
+        "limitAmount": 1300.00,
+        "category": { "name": "Rent", "type": "expense" }
+      },
+      {
+        "budgetID": "bud003",
+        "month": 3,
+        "year": 2024,
+        "limitAmount": 50.00,
+        "category": { "name": "Dining Out", "type": "expense" }
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "64b1f2e3a1b2c3d4e5f60002" },
+    "name": "Jordan Lee",
+    "email": "jordan@email.com",
+    "passwordHash": "hash5678",
+    "createdAt": "2024-01-15",
+    "accounts": [
+      {
+        "accountID": "acc003",
+        "accountName": "Jordan Checking",
+        "accountType": "checking",
+        "balance": 1800.00,
+        "createdAt": "2024-01-15"
+      }
+    ],
+    "budgets": [
+      {
+        "budgetID": "bud004",
+        "month": 3,
+        "year": 2024,
+        "limitAmount": 60.00,
+        "category": { "name": "Transport", "type": "expense" }
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "64b1f2e3a1b2c3d4e5f60003" },
+    "name": "Alex Kim",
+    "email": "alex@email.com",
+    "passwordHash": "hash9012",
+    "createdAt": "2024-02-01",
+    "accounts": [
+      {
+        "accountID": "acc004",
+        "accountName": "Alex Credit Card",
+        "accountType": "credit",
+        "balance": -450.00,
+        "createdAt": "2024-02-01"
+      }
+    ],
+    "budgets": [
+      {
+        "budgetID": "bud005",
+        "month": 3,
+        "year": 2024,
+        "limitAmount": 200.00,
+        "category": { "name": "Groceries", "type": "expense" }
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "64b1f2e3a1b2c3d4e5f60004" },
+    "name": "Priya Patel",
+    "email": "priya@email.com",
+    "passwordHash": "hash3456",
+    "createdAt": "2024-02-10",
+    "accounts": [
+      {
+        "accountID": "acc005",
+        "accountName": "Priya Checking",
+        "accountType": "checking",
+        "balance": 3200.00,
+        "createdAt": "2024-02-10"
+      }
+    ],
+    "budgets": [
+      {
+        "budgetID": "bud006",
+        "month": 3,
+        "year": 2024,
+        "limitAmount": 80.00,
+        "category": { "name": "Entertainment", "type": "expense" }
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "64b1f2e3a1b2c3d4e5f60005" },
+    "name": "Sam Torres",
+    "email": "sam@email.com",
+    "passwordHash": "hash7890",
+    "createdAt": "2024-03-01",
+    "accounts": [
+      {
+        "accountID": "acc006",
+        "accountName": "Sam Cash Wallet",
+        "accountType": "cash",
+        "balance": 300.00,
+        "createdAt": "2024-03-01"
+      }
+    ],
+    "budgets": [
+      {
+        "budgetID": "bud007",
+        "month": 3,
+        "year": 2024,
+        "limitAmount": 100.00,
+        "category": { "name": "Utilities", "type": "expense" }
+      }
+    ]
+  }
+]
