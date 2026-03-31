@@ -1,0 +1,66 @@
+"""
+Lab 7 Question 3: Trees
+
+A phone tree is used to communicate messages to large groups of people. One person calls a few
+people, and each of those people calls a few more people, and each of those people calls a few
+more people, and so on.
+
+In this question, you will practice working with a telephone tree. Each Person is a node in this
+tree. Each Person keeps track of the people to whom they will deliver the message (their 
+"children").
+
+There is an image in this directory called phone-tree.html. The image was generated using 
+Claude AI. Open the image in a browser.
+You can click on any node (except the root), and it highlights every node in its subtree.
+At a high level, your task in this problem is to return all nodes in a given node's subtree.
+
+Your task is to implement and test the message_recipients property, which returns a set of all 
+people who receive the message sent out by the Person. I.e., we want a set with the Person, all the
+people who are contacted by this Person, and all the people who are contacted by those Persons,
+and so on. The chain of contact can be of any length.
+
+You may assume that no Person will receive messages from two different people. (I.e., this is a 
+tree, and it has no cycles).
+
+Tests are not provided for this question, but you only need to write tests for the 
+message_recipients property.
+"""
+
+from __future__ import annotations
+
+class Person:
+    """A person with a name and a set of people to contact."""
+    def __init__(self, name: str, contacts: set[Person]):
+        """A Person with a name and a set of people to contact.
+        
+        Args:
+            name (str): The name of the person.
+            contacts (set[Person]): The set of people this Person is to contact in the phone tree.
+        """
+        self.name = name
+        self.contacts = contacts
+
+    def __str__(self) -> str:
+        return self.name
+
+    def __repr__(self) -> str:
+        return str(self)
+
+    @property
+    def message_recipients(self) -> set[Person]:
+        """Return a set of all the people who receive the message sent out by the Person, 
+        including this Person."""
+        # TODO: return a set of all Persons who receive the message sent out by self
+        # (including self). We recommend implementing and calling the helper function
+        # below.
+
+    @staticmethod
+    def _message_recipients_helper(person: Person, recipients: set[Person]) -> set[Person]:
+        """Helper function for message_recipients. This function updates the recipients set with
+        all people who are connected to this person by a chain of contact."""
+        # TODO: add the person to the set of recipients
+        # TODO: for each of the person's contacts:
+        #       if that contact is not already in the set of recipients,
+        #       recursively call this helper function to add them and their contacts 
+        #       to the set of recipients
+        # TODO: now that the contacts are added, return the set of contacts
