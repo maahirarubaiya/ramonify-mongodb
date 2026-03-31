@@ -1,4 +1,3 @@
-# ramonify-mongodb
 # Ramonify – MongoDB Personal Finance Database
 **CS 3200: Database Design**
 Professor John Alexis Guerra Gómez
@@ -16,8 +15,9 @@ Ramonify is a personal finance tracking database adapted from a relational (SQL)
 
 | File | Description |
 |------|-------------|
-| `requirements_and_schema.pdf` | Requirements document and UML Class Diagram (reused from Project 1) |
-| `hierarchical_model.png` | Hierarchical logical data model for MongoDB |
+| `BUILD_ Project I _ Design & Implement a Relational Database.pdf` | Requirements document and BCNF relational schema proof (reused from Project 1) |
+| `Project 1 UML.png` | UML Class Diagram (reused from Project 1) |
+| `Project2 diagram.png` | Hierarchical logical data model for MongoDB |
 | `collections.json` | JSON examples of the main MongoDB collections with comments |
 | `users.json` | Test data for the users collection |
 | `transactions.json` | Test data for the transactions collection |
